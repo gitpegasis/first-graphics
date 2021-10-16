@@ -43,4 +43,4 @@ for i in range(20): #controls the numbers of circle in graphics
 
         turtle.hideturtle()
         
-        #MYname is veer rana
+        #MYname is veer sharma
