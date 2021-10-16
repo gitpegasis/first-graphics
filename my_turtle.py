@@ -23,3 +23,22 @@ def star (turtle, size):
             
 star(a, 360)
 turtle.done()
+
+
+
+#second Graphics
+
+import turtle
+
+turtle.bgcolor("black")
+turtle.pensize(2)
+turtle.speed(0)
+
+for i in range(20): #controls the numbers of circle in graphics
+
+    for colours in ['red', 'magenta', 'blue', 'cyan', 'green', 'yellow', 'white']:
+        turtle.color(colours)
+        turtle.circle(100)
+        turtle.left(10)
+
+        turtle.hideturtle()
